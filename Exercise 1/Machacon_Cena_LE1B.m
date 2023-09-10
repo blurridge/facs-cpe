@@ -1,7 +1,10 @@
+disp('Fibonacci numbers between 1 - 10');
 fibo_1 = newFibonacci(1, 10);
 disp(fibo_1);
+disp('Fibonacci numbers between 2 - 10');
 fibo_2 = newFibonacci(2, 10);
 disp(fibo_2);
+disp('Fibonacci numbers between 4 - 13');
 fibo_3 = newFibonacci(4, 13);
 disp(fibo_3);
 pal_1 = newPalindrome('racecar');

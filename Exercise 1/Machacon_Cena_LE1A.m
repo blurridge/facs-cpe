@@ -55,20 +55,23 @@ subplot(2, 1, 2);
 plot(x, signal_b_y, 'b--');
 
 %6.
-disp('6.');
 p_a = [1 32 8 85 4 1 3 1];
 p_b = [3 -1 24 9 6 2];
 p_c = [1 77 11 1];
 root_a = roots(p_a);
 root_b = roots(p_b);
 root_c = roots(p_c);
+disp('6.a');
 disp(root_a);
+disp('6.b');
 disp(root_b);
+disp('6.c');
 disp(root_c);
 
 %7.
-disp('7.');
 conv_a = conv(p_a, p_b);
 conv_b = conv(p_a, p_c);
+disp('7.a');
 disp(conv_a);
+disp('7.b');
 disp(conv_b);
